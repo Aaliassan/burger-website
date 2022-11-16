@@ -6,10 +6,11 @@
 }
 
 body {
- background-image: url(log5.webp);
+ background-image: url(log6.jpg);
     /* background-color: red; */
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
     /* width: 100%; */
     font-family: var(--font-style);
