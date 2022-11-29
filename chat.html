@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbot</title>
+    <link rel="stylesheet" href="chat.css">
+   
+   
+</head>
+<body>
+    <div class="glass">
+        <h1>Ask Your Question</h1>
+        <h2>Yeah,ask Some Question</h2>
+        <div style="display:flex ; height: 30%;padding: 20px;">
+            <div class="input" style="width: 70%;">
+                <input  type="text" id="userbox" placeholder="Type Your Question" />    
+            </div>
+            <div class="button" style="width: 30%;">
+                <button onclick="talk()">get answer</button>  
+            </div>
+        </div>
+        
+        <p id="chatlog">Answer Appearing Here</p>
+    </div>
+     
+    <script src="chat.js"></script>
+ 
+</body>
+</html>

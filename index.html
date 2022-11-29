@@ -11,9 +11,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="scroll.css">
 
 </head>
 <body>
+   <div class="popup">
+    <a href="chat.html" id="myBtn" class="btnn" style="border-radius:100px ; "> <i class="bi bi-robot"></i></a>
+    
+   </div>
     
     <header class="header">
         <a href="#" class="logo"> Aali</a>
@@ -31,7 +37,7 @@
             <a href="#review">review</a>
             <a href="#order">order</a>
             <a href="login.html" class="btn" style="border-radius:100px ;"> login</a>
-            
+          
            
             
         </nav>
@@ -89,19 +95,19 @@
 
             <div class="swiper-wrapper">
 
-                <div class="swiper-slide slide" style="background: url(slider1_bg.jpg) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(s2.jpg) no-repeat;">
                     <div class="content">
                         <img src="slider_icons.png" alt="">
-                        <h3>order <br> <span>home</span> burgers </h3>
-                        <a href="#" class="btn"> order now</a>
+                        <h3>order <br> <span>Tasty</span> burgers </h3>
+                        <a href="#order" class="btn"> explore now</a>
                     </div>
                 </div>
 
-                <div class="swiper-slide slide" style="background: url(slider2_bg.jpg) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(s5.jpg) no-repeat;">
                     <div class="content">
                         <img src="slider_icons.png" alt="">
-                        <h3>order <br> <span>home</span> burgers </h3>
-                        <a href="#order" class="btn"> order now</a>
+                        <h3>order <br> <span>Tasty</span> burgers </h3>
+                        <a href="#order" class="btn"> explore now</a>
                     </div>
                 </div>
 
@@ -427,7 +433,7 @@
                 <img src="delivery.gif" alt="">
             </div>
 
-            <form action="">
+            <div class="form">
 
                 <div class="inputBox">
                     <input type="text" placeholder="Your Name">
@@ -441,8 +447,8 @@
 
                 <textarea placeholder="Your Address" cols="30" rows="10"></textarea>
                 <input type="submit" value="order now" class="btn">
-
-            </form>
+               
+            </div>
         </div>
 
     </section>
@@ -494,5 +500,6 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <!-- custom js -->
     <script src="script.js"></script>
+    <script src="scroll.js"></script>
 </body>
 </html>
